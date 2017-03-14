@@ -9,6 +9,9 @@ export default StyleSheet.create({
     "*": {
         "fontFamily": "Lato"
     },
+    "body": {
+        "marginTop": 100
+    },
     "full-width": {
         "width": "100%"
     },
