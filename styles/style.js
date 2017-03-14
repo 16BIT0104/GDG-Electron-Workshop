@@ -8,5 +8,12 @@ const {width, height, scale} = Dimensions.get("window"),
 export default StyleSheet.create({
     "*": {
         "fontFamily": "Lato"
+    },
+    "full-width": {
+        "width": "100%"
+    },
+    "subtext": {
+        "color": "grey",
+        "fontSize": 12
     }
 });

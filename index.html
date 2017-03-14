@@ -8,15 +8,28 @@
   </head>
   <body>
     <div class="ui center aligned container">
-      <h1>Weather VIT</h1>
+      <h1>The Weather Channel</h1>
     </div>
-    <div class="ui grid">
-      
+    <br/>
+    <div class="ui centered grid">
+      <div class="ui five wide column">
+        <div class="ui labeled input full-width">
+          <div class="ui label">City:</div>
+          <input type="text" placeholder="Vellore">
+        </div
+        <br>
+        <div class="subtext">Enter any city in India</div>
+      </div>
     </div>
   </body>
-
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
+    window.$=window.jQuery=require('./bower_components/jquery/dist/jquery.js')
+  </script>
+  <script>
+    $(document).ready(function(){
+      console.log('Hello World!');
+    })
   </script>
 </html>
